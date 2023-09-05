@@ -1,5 +1,5 @@
 // O(1)
-function fn_o1(arr = []) {
+function fnO1(arr = []) {
   const a = arr[1];
   const b = arr[2];
   const c = arr[3];
@@ -7,7 +7,7 @@ function fn_o1(arr = []) {
 }
 
 // O(n)
-function fn_on(arr = []) {
+function fnOn(arr = []) {
   const arr2: number[] = [];
 
   for (let i = 0; i < arr.length; i++) {

@@ -3,7 +3,7 @@
  * 时间复杂度：O(n^2)：循环 O(n) + unshift O(n)
  * 空间复杂度：O(1)：只定义了 length 和 step，变量是有限的
  */
-function array_rotate_1(arr: number[], k: number): number[] {
+function arrayRotate1(arr: number[], k: number): number[] {
   const length = arr.length;
   if (!k || length === 0) return arr;
   const step = Math.abs(k % length); // abs 取绝对值
@@ -16,9 +16,7 @@ function array_rotate_1(arr: number[], k: number): number[] {
   return arr;
 }
 
-
-
-function array_rotate_2(arr: number[], k: number): number[] {
+function arrayRotate2(arr: number[], k: number): number[] {
   const length = arr.length;
   if (!k || length === 0) return arr;
   const step = Math.abs(k % length); // abs 取绝对值
@@ -28,4 +26,4 @@ function array_rotate_2(arr: number[], k: number): number[] {
   return part3;
 }
 
-export { array_rotate_1, array_rotate_2 };
+export { arrayRotate1, arrayRotate2 };
