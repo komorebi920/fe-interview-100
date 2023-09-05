@@ -1,6 +1,6 @@
 import { arrayRotate1, arrayRotate2 } from ".";
 
-describe("数组旋转", () => {
+describe("把一个数组旋转 k 步", () => {
   it("arrayRotate1: 正常情况", () => {
     const k = 3;
     const res = arrayRotate1([1, 2, 3, 4, 5, 6, 7], k);

@@ -1,6 +1,6 @@
 import { matchBracket } from ".";
 
-describe("括号匹配", () => {
+describe("判断一个字符串是否括号匹配", () => {
   it("正常情况", () => {
     const str = "{a(b[c]d)e}f";
     const res = matchBracket(str);
